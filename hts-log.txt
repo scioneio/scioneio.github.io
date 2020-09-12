@@ -1,0 +1,26 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 12 Sep 2020 14:10:33 at localhost/scione/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" localhost/scione/ -O1 "E:\scioneio" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:10:58	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 2627): localhost/scione/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fscione%2Fsample-page%2F
+14:11:05	Error: 	"Not Found" (404) at link localhost/scione/sample-page.html (from localhost/scione/sample-page/)
+14:11:05	Error: 	Unable to save file E:/scioneio/localhost/scione/sample-page.html: Permission denied
+14:11:05	Warning: 	Moved Permanently for localhost/scione/?p=2
+14:11:05	Warning: 	File has moved from localhost/scione/?p=2 to http://localhost/scione/sample-page/
+14:11:06	Error: 	"Method Not Allowed" (405) at link localhost/scione/xmlrpc.php (from localhost/scione/sample-page/)
+14:11:06	Warning: 	Found for localhost/scione/wp-admin/
+14:11:06	Warning: 	File has moved from localhost/scione/wp-admin/ to http://localhost/scione/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fscione%2Fwp-admin%2F&reauth=1
+14:11:06	Error: 	"Not Found" (404) at link localhost/scione/search.html (from localhost/scione/search/)
+14:11:07	Warning: 	Moved Permanently for localhost/scione/?p=21
+14:11:07	Warning: 	File has moved from localhost/scione/?p=21 to http://localhost/scione/search/
+14:11:11	Warning: 	Moved Permanently for localhost/scione/?p=8
+14:11:11	Warning: 	File has moved from localhost/scione/?p=8 to http://localhost/scione/2020/09/12/test/
+14:11:11	Warning: 	Moved Permanently for localhost/scione/?p=1
+14:11:11	Warning: 	File has moved from localhost/scione/?p=1 to http://localhost/scione/2020/09/12/hello-world/
+
+HTTrack Website Copier/3.49-2 mirror complete in 38 seconds : 82 links scanned, 73 files written (1723967 bytes overall), 18 files updated [653133 bytes received at 17187 bytes/sec], 3.9 requests per connection
+(4 errors, 11 warnings, 0 messages)

@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+localhost	TRUE	/scione/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+.google.com	TRUE	/	FALSE	1999999999	NID	204=zp9osHhtG7eBdR5UtwCb5e9wH8YnYDqVg5E9FqrL4lBEh8107N8LYjNjMF7Za4F6EB8fq3HmCj06H8SIcZcbNBMOoKqiP9kSb8UQMCSZ_AAiGfnfWz0Ntch_jDf1ASDxWOUVlFfsegrf9-t_r13GduClSe1ql2_RfmeOSM3u4MA
+.google.com	TRUE	/	FALSE	1999999999	1P_JAR	2020-09-12-18
+
