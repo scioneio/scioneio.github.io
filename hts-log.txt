@@ -1,21 +1,21 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sun, 13 Sep 2020 19:46:15 at scione.io +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" scione.io -O1 "C:\Users\design\Documents\GitHub\scioneio.github.io" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 13 Sep 2020 19:53:53 at scione.io +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN100%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" scione.io -O1 "C:\Users\design\Documents\GitHub\scioneio.github.io" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-19:46:16	Warning: 	Note: due to scione.io remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
-19:46:50	Warning: 	Moved Permanently for scione.io/?p=2
-19:46:50	Warning: 	File has moved from scione.io/?p=2 to http://scione.io/sample-page/
-19:46:50	Error: 	"Method Not Allowed" (405) at link scione.io/xmlrpc.php (from scione.io/sample-page/)
-19:46:50	Warning: 	Moved Permanently for scione.io/?p=21
-19:46:50	Warning: 	File has moved from scione.io/?p=21 to http://scione.io/search/
-19:46:50	Warning: 	Moved Permanently for scione.io/?p=8
-19:46:50	Warning: 	File has moved from scione.io/?p=8 to http://scione.io/2020/09/12/test/
-19:46:50	Warning: 	Moved Permanently for scione.io/?p=1
-19:46:50	Warning: 	File has moved from scione.io/?p=1 to http://scione.io/2020/09/12/hello-world/
+19:53:53	Warning: 	Note: due to scione.io remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+19:54:34	Warning: 	Moved Permanently for scione.io/?p=2
+19:54:34	Warning: 	File has moved from scione.io/?p=2 to http://scione.io/sample-page/
+19:54:34	Error: 	"Method Not Allowed" (405) at link scione.io/xmlrpc.php (from scione.io/sample-page/)
+19:54:34	Warning: 	Moved Permanently for scione.io/?p=21
+19:54:34	Warning: 	File has moved from scione.io/?p=21 to http://scione.io/search/
+19:54:34	Warning: 	Moved Permanently for scione.io/?p=8
+19:54:34	Warning: 	File has moved from scione.io/?p=8 to http://scione.io/2020/09/12/test/
+19:54:34	Warning: 	Moved Permanently for scione.io/?p=1
+19:54:34	Warning: 	File has moved from scione.io/?p=1 to http://scione.io/2020/09/12/hello-world/
 
-HTTrack Website Copier/3.49-2 mirror complete in 42 seconds : 70 links scanned, 64 files written (1633477 bytes overall) [1669236 bytes received at 39743 bytes/sec], 5.0 requests per connection
+HTTrack Website Copier/3.49-2 mirror complete in 47 seconds : 70 links scanned, 64 files written (1633477 bytes overall) [1669240 bytes received at 35515 bytes/sec], 3.8 requests per connection
 (1 errors, 9 warnings, 0 messages)
