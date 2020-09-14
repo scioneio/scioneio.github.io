@@ -38,7 +38,7 @@ if(O()){document.getElementsByTagName("head")[0].appendChild(P(opts_.cselibVersi
   },
   "protocol": "https",
   "rawCss": ".gsc-control-cse{font-family:arial, sans-serif}.gsc-control-cse .gsc-table-result{font-family:arial, sans-serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0))}",
-  "cse_token": "AJvRUv3IZaVjw0MP4-yJKGnf2DhI:1600041258527",
+  "cse_token": "AJvRUv1hZZgPKjia5nmAccykaBOC:1600041805315",
   "isHostedPage": false,
   "exp": ["csqr", "cc"],
   "cselibVersion": "26b8d00a7c7a0812",
