@@ -24,8 +24,8 @@ END:VTIMEZONE
 BEGIN:VEVENT
 DTSTAMP:20210426T175455Z
 UID:20210426T175455Z-138623961@marudot.com
-DTSTART;TZID=America/Havana:20210502T090000
-DTEND;TZID=America/Havana:20210502T120000
+DTSTART;TZID=America/Havana:20210501T090000
+DTEND;TZID=America/Havana:20210501T120000
 SUMMARY:MassBay Spring Virtual Open House
 URL:https://lp.massbay.edu/fall-virtual-open-house-2020/sign-in.html
 DESCRIPTION:Join at https://lp.massbay.edu/fall-virtual-open-house-2020/sign-in.html
