@@ -615,4 +615,44 @@
     var yearEl = document.getElementById('year');
     if (yearEl) yearEl.textContent = String(new Date().getFullYear());
   });
+
+  /* ---- Deferred post-load Google Tag Manager (non-render-blocking) ---- */
+  var GTM_ID = 'GTM-PFGQT6FX';
+  var gtmLoaded = false;
+
+  function loadGoogleTagManager() {
+    if (gtmLoaded) return;
+    if (location.protocol !== 'http:' && location.protocol !== 'https:') return;
+    gtmLoaded = true;
+
+    window.dataLayer = window.dataLayer || [];
+    if (typeof window.gtag !== 'function') {
+      window.gtag = function () { window.dataLayer.push(arguments); };
+    }
+    window.gtag('js', new Date());
+    window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtm.js?id=' + encodeURIComponent(GTM_ID);
+    (document.head || document.body || document.documentElement).appendChild(script);
+  }
+
+  function scheduleDeferredAnalytics() {
+    var trigger = function () {
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(loadGoogleTagManager, { timeout: 2000 });
+      } else {
+        setTimeout(loadGoogleTagManager, 1);
+      }
+    };
+
+    if (document.readyState === 'complete') {
+      trigger();
+    } else {
+      window.addEventListener('load', trigger, { once: true });
+    }
+  }
+
+  scheduleDeferredAnalytics();
 })();

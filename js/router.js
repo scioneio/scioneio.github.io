@@ -124,8 +124,7 @@
     if (window.ResourcesController && window.ResourcesController.init) window.ResourcesController.init();
   }
 
-  function applySwap(html, key, opts) {
-    var newDoc = new DOMParser().parseFromString(html, 'text/html');
+  function applySwap(newDoc, key, opts) {
     var newMain = newDoc.querySelector('main');
     var curMain = document.querySelector('main');
     if (!newMain || !curMain) return false;
@@ -185,9 +184,25 @@
       })
       .then(function (html) {
         if (activeController !== controller) return; // superseded by a newer navigation
+        var newDoc = new DOMParser().parseFromString(html, 'text/html');
+        if (!newDoc.querySelector('main') || !document.querySelector('main')) {
+          window.location.href = parsed.href;
+          return;
+        }
+        document.title = newDoc.title;
         if (!swapOpts.isPopstate) history.pushState({ spaKey: key }, '', parsed.href);
-        var ok = applySwap(html, key, swapOpts);
-        if (!ok) window.location.href = parsed.href;
+        var ok = applySwap(newDoc, key, swapOpts);
+        if (!ok) {
+          window.location.href = parsed.href;
+          return;
+        }
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'virtual_pageview',
+          page_path: parsed.pathname + parsed.search,
+          page_location: parsed.href,
+          page_title: document.title
+        });
       })
       .catch(function (err) {
         if (err && err.name === 'AbortError') return; // expected when superseded
