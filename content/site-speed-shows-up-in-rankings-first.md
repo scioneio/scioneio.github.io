@@ -1,0 +1,9 @@
+Google doesn't experience your website the way you designed it. It experiences it the way a stopwatch would, and a slow site gets penalized for that regardless of how good the content sitting behind the load time actually is.
+
+The mechanism is called pogo-sticking, and it's a decent plain-English explanation for why speed and rankings are connected. A visitor clicks a search result, the page loads slowly or shifts around while it's still rendering, and they hit back and pick a different result instead. Google reads that fast bounce as a signal the page didn't satisfy the search, even when the content itself was fine. The site gets blamed for a performance problem, not a content one.
+
+Mobile makes this worse. Most traffic now arrives on a phone, on a network that's slower and less consistent than a home connection, and mobile users have less patience for a page still loading three seconds in. Content that shifts as images and fonts finish loading causes a second problem on top of that: accidental taps on the wrong button or link, its own kind of frustrating exit.
+
+The technical fixes here are well understood and mostly come down to reducing what the browser has to do before it can show something useful. Compress and properly format images. Minify CSS and JavaScript. Use browser caching so returning visitors aren't re-downloading the same files. Pick a host that doesn't add its own delay before your code even starts running. None of these are exotic changes, and none require a full rebuild, but together they're the difference between a site that feels instant and one that feels like it's thinking about it.
+
+Treat page speed as an SEO input, not just a nice-to-have for user experience, because that's exactly how Google treats it. A fast site keeps the visitor Google already sent you. A slow one hands them back to the results page to try someone else.

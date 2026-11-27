@@ -1,0 +1,13 @@
+{
+  "name": "scione-website-build",
+  "private": true,
+  "description": "Build script that turns data/resources.csv + content/*.md into real static resource pages. Run `npm install` once, then `node build.js` after any CSV or content edit.",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "marked": "16.3.0",
+    "dompurify": "3.4.11",
+    "jsdom": "^30.0.1"
+  }
+}

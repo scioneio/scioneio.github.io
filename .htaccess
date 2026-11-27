@@ -1,0 +1,5 @@
+# Local Apache testing only -- GitHub Pages does not read this file at all;
+# it already serves 404.html automatically for any unmatched request, with
+# no configuration needed. Update /404.html to /<subdir>/404.html if testing
+# custom 404s inside a local Apache subdirectory.
+ErrorDocument 404 /404.html

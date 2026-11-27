@@ -1,0 +1,9 @@
+Universal Analytics is gone, and GA4 is what replaced it, which means most businesses are working with a genuinely different tool than the one they might still be picturing. GA4 is built around user behavior across devices rather than isolated pageviews, and it's a better lens for understanding an actual customer journey than UA ever was. It just requires re-learning where things live.
+
+Search Console is the tool most businesses under-use relative to how useful it actually is. It shows you the exact queries bringing people to your site, which pages are ranking and for what, and where you're showing up in search without getting clicked. That last one matters more than people realize: a page ranking well but getting ignored in the results usually means the title or meta description isn't earning the click, a fixable problem Search Console is the only place that actually surfaces.
+
+Microsoft Clarity fills a different gap entirely: free heatmaps and real session recordings, showing exactly where visitors click, how far they scroll, and where they hesitate or give up on something that isn't working. Numbers in GA4 tell you a page has a high exit rate. Clarity tends to show you why, because you're watching an actual person get stuck on it.
+
+Looker Studio, formerly Google Data Studio, is where all of this comes together into something someone will actually look at on a regular basis. Raw access to GA4, Search Console and Clarity data is one thing; a single dashboard with the handful of metrics that actually matter, checked on a real schedule, is what makes the data usable instead of just available.
+
+All four of these tools are free, and together they cover the large majority of what a small or midsize business actually needs to understand about how its website is performing. The barrier isn't cost. It's the setup time, and the discipline to actually check the dashboard once it exists.

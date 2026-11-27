@@ -1,0 +1,9 @@
+The most expensive mistake I see businesses make with a website isn't picking the wrong platform. It's picking a platform sized for a business a few stages ahead of where they actually are, and paying for complexity they don't need yet.
+
+Think of it as three real tiers. The first is basically a digital business card: a handful of pages covering who you are, what you do and how to reach you. For a solo operator or a very early business, this is genuinely enough. It's the digital equivalent of a handshake, not the whole relationship.
+
+The second tier is a brochure or catalog site: more pages, actual content like articles or a portfolio, room to show a fuller range of what a business offers without the overhead of e-commerce. This is where most growing service businesses actually belong, and where a lot of them overbuild instead, paying for features a five-page business card site would have handled just as well.
+
+The third tier is a full marketing website: structured data, SEO built in from the ground up, payment processing, the works. This is real infrastructure, built for a business that's ready to compete seriously online and has the traffic or ambition to justify it. It's also the tier that gets sold to businesses who aren't there yet, because it's the most profitable tier to sell.
+
+None of this is really about custom code versus a website builder as categories. A well-built site on Webflow or WordPress can serve tier two or three needs just fine; a custom build can absolutely be overkill for tier one. The actual question is which tier your business is in right now, honestly, not which tier sounds most impressive in a sales conversation. Pick the tool that matches where you are, with enough room to grow into the next tier without a full rebuild, and you'll get more use out of it than chasing whatever platform has the most features listed on its homepage.

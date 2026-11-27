@@ -1,0 +1,9 @@
+Web hosting gets treated as the boring, interchangeable part of a website: something to pick once, quickly, and never think about again. That's a mistake, because hosting quietly shapes almost everything else the site does.
+
+Time to First Byte is the metric that makes this concrete. TTFB measures how long it takes a browser to get the very first response from your server, before anything on the page has even started rendering. It's the floor underneath every other speed optimization a site runs. Compress every image and minify every script all you want; a slow host still adds delay before any of that optimized content starts loading.
+
+Google factors site speed into rankings, which means a mediocre host isn't just a user experience problem, it's an SEO one too. Slower TTFB tends to mean higher bounce rates and less time on page, both signals that quietly work against a site in search results regardless of how good the content sitting on top of that slow server actually is.
+
+Reliability and security matter just as much, especially for a site that can't afford downtime during a traffic spike, whether that's a product launch or just an unexpectedly good day. A good host handles that scaling without the site falling over, keeps backups current, and patches vulnerabilities before they become a problem instead of after. Many hosts also bundle in a CDN, which distributes a site's content across servers around the world so a visitor on the other side of the planet isn't waiting on a request that has to travel there and back.
+
+For WordPress specifically, managed hosts built around the platform (WP Engine is one I've had good experience with) tend to outperform generic shared hosting by a wide margin on all of the above. The difference between a cheap host and a real managed one rarely shows up in the sales pitch. It shows up the first time your site gets real traffic and either handles it or doesn't.
